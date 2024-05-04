@@ -3,7 +3,11 @@
 {% block title%}Bienvenidos{% endblock%}
 
 {% block content %}
-<h1>Pagina de Portafolio</h1>
 
+{%include 'nav.html' %}
+
+{% include "home.html "%}
+
+{% include 'portafolio.html' %}
 
 {% endblock content %}
