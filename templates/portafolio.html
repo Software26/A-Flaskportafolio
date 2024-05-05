@@ -1,6 +1,8 @@
-{%extends "base.html"%}
-{%include 'nav.html' %}
-{% block content%}
+{% extends "base.html"%}
+
+{% block content %}
+
+
 <section class="container p-5" id="portafolios">
     <h2 class="text-center mb-4">Portafolio</h2>
 
@@ -12,7 +14,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Lista de tareas con Flask</h5>
                     <p class="card-text">Este es el proyecto de lista de tareas.</p>
-                    <a href="#" class="btn btn-primary">Link aquí</a>
+                    <a href="#" class="btn btn-primary">Click aqui</a>
                 </div>   
             </div>
         </div>
@@ -21,9 +23,9 @@
             <div class="card">
                 <img src="{{ url_for('static', filename='img/blog-post.png') }}" alt="imagen del proyecto" class="card-img-top mx-auto d-block" style="width: 100%; height: auto;">
                 <div class="card-body">
-                    <h5 class="card-title">Lista de tareas con Flask</h5>
-                    <p class="card-text">Este es el proyecto de lista de tareas.</p>
-                    <a href="#" class="btn btn-primary">Link aquí</a>
+                    <h5 class="card-title">Blog con flask</h5>
+                    <p class="card-text">Este es un proyecto que podemos observa la pantalla es un blog con flask.</p>
+                    <a href="#" class="btn btn-primary">Click aqui</a>
                 </div>   
             </div>
         </div>
@@ -32,9 +34,9 @@
             <div class="card">
                 <img src="{{ url_for('static', filename='img/web.jpg') }}" alt="imagen del proyecto" class="card-img-top mx-auto d-block" style="width: 100%; height: auto;">
                 <div class="card-body">
-                    <h5 class="card-title">Lista de tareas con Flask</h5>
-                    <p class="card-text">Este es el proyecto de lista de tareas.</p>
-                    <a href="#" class="btn btn-primary">Link aquí</a>
+                    <h5 class="card-title">Portafolios</h5>
+                    <p class="card-text">Este es el proyecto es un portafolios donde poedemos colocar los proyectos realizados.</p>
+                    <a href="#" class="btn btn-primary">Click aqui</a>
                 </div>   
             </div>
         </div>
@@ -43,12 +45,12 @@
             <div class="card">
                 <img src="{{ url_for('static', filename='img/api-contact.png') }}" alt="imagen del proyecto" class="card-img-top mx-auto d-block" style="width: 100%; height: auto;">
                 <div class="card-body">
-                    <h5 class="card-title">Lista de tareas con Flask</h5>
-                    <p class="card-text">Este es el proyecto de lista de tareas.</p>
-                    <a href="#" class="btn btn-primary">Link aquí</a>
+                    <h5 class="card-title">Api-decontact</h5>
+                    <p class="card-text">Estaapi lista los contactos </p>
+                    <a href="#" class="btn btn-primary">Click aqui</a>
                 </div>   
             </div>
         </div>
     </div>
 </section>
-{% endblock content%}
+{% endblock content %}
